@@ -15,6 +15,12 @@
     limitations under the License.
 -->
 <resources>
+    <string name="captcha_detector_key" translatable="false">captcha_detector_enable</string>
+    <bool name="captcha_detector_default" translatable="false">true</bool>
+
+    <string name="captcha_keywords_key" translatable="false">captcha_keywords</string>
+    <string name="captcha_keywords_default" translatable="false">验证码\n校验码\n口令\nPIN\nコード\ncode</string>
+
     <!-- Preference keys for user-visible settings -->
     <!-- Application-wide settings -->
     <string name="swipe_right_deletes_conversation_key" translatable="false">swipe_right_deletes_conversation</string>
